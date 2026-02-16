@@ -1,0 +1,12 @@
+name: hello-world
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    setps:
+      - uses: actions/checkout@v4
+      - name: runs 
+        run: echo"hello-world"
+        
